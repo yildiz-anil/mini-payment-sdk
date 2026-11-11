@@ -40,3 +40,4 @@ mvn verify
 Significant design decisions are recorded as ADRs in [`docs/adr`](docs/adr):
 
 - [ADR-0001](docs/adr/0001-plain-java-single-module.md) — Plain Java, no Spring, single module
+- [ADR-0002](docs/adr/0002-class-loading-without-initialization.md) — Load scanned classes without initializing them; scan directories only
